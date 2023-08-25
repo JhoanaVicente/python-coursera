@@ -1,6 +1,6 @@
 #Imprimir los numeros 12,18,24,30,36
-for n in range (6, 18+1, 3):
-    print(n*2)
+"""for n in range (6, 18+1, 3):
+    print(n*2)"""
 
 #Bucles que imprimen los numeos pares del 0 al 18
 for n in range(19):
