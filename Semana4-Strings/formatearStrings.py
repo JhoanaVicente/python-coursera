@@ -29,16 +29,12 @@ print(formatted_string)"""
 
 
 
-"""Si los marcadores de posición indican un número, se reemplazan por la variable correspondiente a ese orden (comenzando en cero):
 
+"""Si los marcadores de posición indican un número, se reemplazan por la variable correspondiente a ese orden (comenzando en cero).
 first = "apple"
 second = "banana"
 third = "carrot"
 
-formatted_string = "{0} {2} {1}".format(first, second, third)"""
+formatted_string = "{0} {2} {1}".format(first, second, third)
 
-
-
-
-
-print(formatted_string)
+print(formatted_string)"""
