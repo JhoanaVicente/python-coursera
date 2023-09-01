@@ -1,5 +1,7 @@
-# Itere sobre los pares clave y valor de un diccionario usando un bucle for con el método Dictionary.items() para
-# calcular la suma de los valores en un diccionario.
+"""Itere sobre los pares clave y valor de un diccionario usando un bucle for con el método Dictionary.items() para
+calcular la suma de los valores en un diccionario. Esta funcion devuelve el tiempo
+total con los minutos representados como decimales (ejemplo: 1 hora 30 minutos= 1,5)
+para todo el tiempo del usuario final gastado accediendo a un servidor en un dia determinado."""
 
 def sum_server_use_time(Server):
     total_use_time = 0.0
