@@ -2,7 +2,6 @@ animals = ["Lion", "Zebra", "Dolphin", "Monkey"] #Iteramos sobre una lista de ca
 chars = 0 #Los caracteres comienzan con 0
 for animal in animals: #Comenzamos un bucle
     chars += len(animal)
-
     print("Total characters: {}, Average length: {}".format(chars, chars/len(animals)))
 
 
@@ -32,9 +31,9 @@ posiciones impares (índices pares) dentro de la lista original."""
 def skip_elements(elements):
     return [element for index, element in enumerate(elements) if index % 2 == 0]
 
-    """Aquí, estamos usando una comprensión de lista para iterar sobre las tuplas generadas por enumerate(elements).
-    Para cada tupla, estamos seleccionando solo el element (el valor en la lista original) si el index (el índice en la
-    lista original) es par, es decir, si index % 2 == 0."""
+"""Aquí, estamos usando una comprensión de lista para iterar sobre las tuplas generadas por enumerate(elements).
+Para cada tupla, estamos seleccionando solo el element (el valor en la lista original) si el index (el índice en la
+lista original) es par, es decir, si index % 2 == 0."""
 
 print(skip_elements(["a", "b", "c", "d", "e", "f", "g"])) # Should be ['a', 'c', 'e', 'g']
 print(skip_elements(['Orange', 'Pineapple', 'Strawberry', 'Kiwi', 'Peach'])) # Should be ['Orange', 'Strawberry', 'Peach']

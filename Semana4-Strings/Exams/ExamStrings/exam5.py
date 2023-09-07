@@ -1,4 +1,4 @@
-# Super feliz porque este lo hize 100% sola y viendo la carpeta formatearString4
+# Super feliz porque este lo hize 100% sola y viendo la carpeta formatear String4
 
 def replace_ending(sentence, old, new):
     if sentence.endswith(old):
