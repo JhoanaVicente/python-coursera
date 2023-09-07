@@ -4,6 +4,7 @@ for x in range (1, 11):
 
 print(multiples)
 
+
 #List Comprenhension: Crea nuevas listas basadas en secuencias o rangos
 multiples = [x*7 for x in range(1, 11)]
 print(multiples)
