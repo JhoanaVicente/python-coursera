@@ -17,3 +17,8 @@ carnelian = Grape("purple", "sweet")
 
 print(granny_smith.flavor)
 print(carnelian.color)
+
+
+"""En Python, usamos paréntesis en la declaración de clase para que la clase herede de la clase Fruit. Entonces, en este ejemplo,
+le estamos indicando a nuestra computadora que tanto la clase Apple como la clase Grape heredan de la clase Fruit. Esto
+significa que ambos tienen el mismo método constructor que establece los atributos de color y sabor."""
