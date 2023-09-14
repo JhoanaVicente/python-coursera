@@ -167,3 +167,11 @@ línea por línea. Cada línea se agrega a la lista "checked_in" después de eli
 El resultado de este código será una serie de mensajes en la consola que indicarán si los invitados en la lista
 "guests_to_check" han realizado check-in o no, en función de los nombres encontrados en el archivo "guests.txt". Esto es
 útil para verificar la asistencia de invitados específicos."""
+
+
+import os
+os.path.getsize("guests.txt")
+
+import datetime
+timestamp = os.path.getmtime("guests.txt")
+datetime.datetime.fromtimestamp(timestamp)
