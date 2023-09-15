@@ -1,8 +1,8 @@
 """Concatene un valor, una cadena y la clave para cada elemento del diccionario y agréguelo al final de una nueva lista [] usando el método   list.append(x) .
 Itere sobre claves con múltiples valores de un diccionario usando bucles for anidados con el método Dictionary.items() ."""
 
-# This function receives a dictionary, which contains common employee
-# last names as keys, and a list of employee first names as values.
+# This function receives a dictionary, which contains common employee.csv
+# last names as keys, and a list of employee.csv first names as values.
 # The function generates a new list that contains each employees’ full
 # name (First_name Last_Name). For example, the key "Garcia" with the
 # values ["Maria", "Hugo", "Lucia"] should be converted to a list
