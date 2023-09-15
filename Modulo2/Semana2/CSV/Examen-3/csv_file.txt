@@ -1,0 +1,4 @@
+name, phone,role
+Minerva Pedret,12345,Developer
+Irina Ichim,23456,Entrepreneur
+Jhoana Vicente,34567,Business Woman
